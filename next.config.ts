@@ -1,14 +1,5 @@
-{
-  "name": "shotmemo",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
-}
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {};
+
+export default nextConfig;
